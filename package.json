@@ -1,0 +1,19 @@
+{
+  "name": "custom-pd-handler-for-ble-beacon",
+  "version": "0.0.1",
+  "description": "Hands-on for creating custom pd-handler for BLE beacon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plathome/custom-pd-handler-for-ble-beacon.git"
+  },
+  "author": "Daisuke Ogawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plathome/custom-pd-handler-for-ble-beacon/issues"
+  },
+  "homepage": "https://github.com/plathome/custom-pd-handler-for-ble-beacon#readme",
+  "dependencies": {
+    "abstract-socket": "^2.0.0",
+    "noble": "^1.9.0"
+  }
+}
