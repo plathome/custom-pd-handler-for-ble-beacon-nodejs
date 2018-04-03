@@ -1,4 +1,4 @@
-# How To Custom PD-Handler for BLE beacon with Node.js
+# How To Create Custom PD-Handler for BLE beacon with Node.js
 
 ## Installation
 ```

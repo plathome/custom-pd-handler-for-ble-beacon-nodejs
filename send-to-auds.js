@@ -11,6 +11,6 @@ noble.on('discover', function(peripheral) {
 	const client = abs.connect('\0/node-red/userdev_0000001.sock', function() {
 		console.log('connected!');
 		console.log('JSON data: ' + JSON.stringify(data));
-		client.write(JSON.stringify(data));
+		client.end(JSON.stringify(data));
 	});
 });
